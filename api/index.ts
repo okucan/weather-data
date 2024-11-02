@@ -26,6 +26,6 @@ app.get("/weather", function (req: any, res: any) {
 
 app.listen(3000, function () {
   console.log(
-    "http://127.0.0.1:3000/weather?serviceKey=0JeXzGEjvmLDjvYjRu7JXlsI9LasDf84K82AkGVAREE8a2JOc9GZmCFjwRZ3K%2F00q1dPjgrBomD88cdO9qygGw%3D%3D&numOfRows=10&pageNo=1&base_date=20241026&base_time=0200&nx=60&ny=127 app listening on port 3000!"
+    "http://127.0.0.1:3000/weather?serviceKey=0JeXzGEjvmLDjvYjRu7JXlsI9LasDf84K82AkGVAREE8a2JOc9GZmCFjwRZ3K%2F00q1dPjgrBomD88cdO9qygGw%3D%3D&numOfRows=10&pageNo=1&datatype=1&base_date=20241102&base_time=1000&nx=60&ny=127nx=60&ny=127 app listening on port 3000!"
   );
 });
